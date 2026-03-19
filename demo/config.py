@@ -24,8 +24,24 @@ MC_CONFIG = {
 
 # Parameters for the generation loop
 LOOP_CONFIG = {
-    'th_start': 0.0,         # Start orientation (degrees)
-    'orientation_step': 45.0, # Increment in orientation (degrees)
     'num_clouds': 4,         # Total number of videos to generate
-    'duration_sec': 2.0      # Duration of each generated video in seconds
+    'duration_sec': 2.0,     # Duration of each generated video in seconds
+    
+    # Starting values and step sizes for parameter sweeps
+    'th_start': 0.0,
+    'th_step': 45.0,
+    'sf_start': 1.0,
+    'sf_step': 1.0,
+    'sf_sig_start': 0.5,
+    'sf_sig_step': 0.5,
+    'th_sig_start': 5.0,
+    'th_sig_step': 5.0,
+    'tf_start': 0.5,
+    'tf_step': 0.5,
+    'spd_scalar_start': 1.0,
+    'spd_scalar_step': 1.0,
+    'spd_dir_start': 0.0,
+    'spd_dir_step': 45.0,
+    'contrast_start': 10.0,
+    'contrast_step': 10.0,
 }
