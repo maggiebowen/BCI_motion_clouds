@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.venv/
+dyntex-env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and Media
+*.mp4
+*.avi
+*.gif
+*.mov
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
