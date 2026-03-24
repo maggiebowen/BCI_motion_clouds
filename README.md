@@ -50,6 +50,11 @@ From the project root:
 python demo/simple_gui.py
 ```
 
+source dyntex-env/bin/activate
+pip install -e . --no-build-isolation
+python demo/simple_gui.py
+
+
 **Composite GUI**
 ```bash
 python demo/compound_gui.py
