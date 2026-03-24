@@ -24,8 +24,8 @@ MC_CONFIG = {
 
 # Parameters for the generation loop
 LOOP_CONFIG = {
-    'num_clouds': 4,         # Total number of videos to generate
-    'duration_sec': 2.0,     # Duration of each generated video in seconds
+    'num_clouds': 6,         # Total number of videos to generate
+    'duration_sec': 3.3,     # Duration of each generated video in seconds
     
     # Starting values and step sizes for parameter sweeps
     'th_start': 0.0,
